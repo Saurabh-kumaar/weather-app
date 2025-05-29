@@ -1,0 +1,32 @@
+
+body {
+  font-family: 'Times New Roman'; 
+  text-align: center; 
+  margin-top: 250px; 
+  background-color: rgb(93, 191, 239);  
+
+}
+ 
+input {
+  padding: 8px;
+  margin: 10px; 
+
+
+}
+
+.weather-card {
+  background-color: #f2f5f8;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
