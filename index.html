@@ -6,17 +6,41 @@
   <title>Weather App</title> 
   <link href="style.css" rel="stylesheet"> 
   <script src="https://cdn.tailwindcss.com"></script>
+  
 
 </head>
-<body > 
-    <div class="weather-card">
-    <h1>Weather Checker</h1>
-    <input type="text" id="cityInput" placeholder="Enter city name">
-    <button onclick="getWeather()">Check Weather</button>
-    <div id="result"></div> 
+<body class="flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-300 to-blue-600 p-4">
+
+    <div class="bg-white/20 backdrop-blur-lg rounded-2xl shadow-xl p-6 w-full max-w-md text-center">
+
+
+
+    <h1 class="text-xl sm:text-2xl md:text-4xl font-bold mb-4 text-white">Weather Checker</h1>
+
+
+    <input 
+
+      type="text"
+      id="cityInput" 
+      placeholder="Enter city name"
+      class="w-full px-4 py-2 rounded-md mb-4 outline-none text-black"
+    />
+
+
+    <button
+       onclick="getWeather()"
+       class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition"
+      >Check Weather
+
+    </button>
+
+    <div id="result" class="mt-6 text-white text-lg"></div> 
     </div>
 
     <script src="script.js"></script>
+
+
+
 </body>
 </html>
 
