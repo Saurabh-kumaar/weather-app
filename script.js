@@ -30,12 +30,6 @@ fetch(url)
   })
 
 
-
-
-
-
-
-
   .catch(error => {
     document.getElementById("result").innerHTML = `
     <p class="text-red-600 font-bold mt-4"> City not found. Please try again. </p> 
